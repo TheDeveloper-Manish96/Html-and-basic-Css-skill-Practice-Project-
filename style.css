@@ -1,0 +1,74 @@
+/* RESTAURANT WEBSITE */
+
+
+body {
+    
+    font-family: sans-serif;
+    background-color: lightslategrey; 
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+header {
+    background-color: #55d6aa;
+    background-image: url('image/header01.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: right;
+    background-size: cover;
+    border: 3px solid black;
+    padding: 120px;
+
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-weight: 700;   
+    
+}  
+
+#heading {
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    color: darkkhaki;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    margin: 40px  50px;
+    
+}
+ 
+
+.container {
+
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 0;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+}
+
+
+li { 
+display: inline-block;    
+text-transform: uppercase;    
+list-style: none;
+border: 5px solid black;
+color: snow;
+margin:  100px 70px 0;
+padding: 2px;
+    
+    
+}
+
