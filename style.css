@@ -30,12 +30,12 @@ h1 {
 }  
 
 #heading {
-    font-size: 45px;
+    font-size: 50px;
     font-family:monospace;
     text-align: center;
     word-spacing: 20px;
     margin: 0 0 100;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #headingtagline {
@@ -44,7 +44,7 @@ h1 {
     color: darkgreen;
     font-weight: 400;
     margin: 50px 0 0;
-    word-spacing: 4px;
+    word-spacing: 3px;
     font-family: cursive;
 }
  
@@ -63,7 +63,7 @@ display: inline-block;
 text-transform: uppercase;    
 list-style: none;
 color: black;
-margin:  80px 60px 0;
+margin:  100px 60px 40px;
 font-family: monospace;
     
     
@@ -98,7 +98,7 @@ a:active {
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -1px;
-    margin: 80px 200px 0;
+    margin: 80px 300px 0;
     font-style: normal;
     
 }
@@ -106,29 +106,29 @@ a:active {
 .section-1 span {
     font-size: 15px;
     font-family: cursive;
-    font-weight: 200;
-    margin: 0 200px 0px;
-    line-height: 80px;
+    font-weight: 500;
+    margin: 0 300px 0;
+    line-height: 150px;
 }
 
 .section-1 p {
-     margin: 80px 10px 0;
+     margin: 100px 50px 0 50px;
      font-size: 20px;
-     word-spacing: 5px;
+     word-spacing: 3px;
      font-style: italic; 
+     float: left;
+     padding-top: 120px;
+     
 }
 
-#image-border {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
+img {
+   
+    height: 370px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 120px;
     float: right;
-}
-
-.background-image {
-    background-color: #55d6aa;
-    background-image: url('image/download.jpg');
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
     
 }
+
