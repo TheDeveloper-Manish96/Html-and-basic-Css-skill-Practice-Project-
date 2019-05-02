@@ -58,7 +58,7 @@ h1 {
 }
 
 
-li { 
+.list { 
 display: inline-block;    
 text-transform: uppercase;    
 list-style: none;
@@ -112,13 +112,13 @@ a:active {
 }
 
 .section-1 p {
-     margin: 100px 50px 0 50px;
+     margin: 100px 50px 0 100px;
      font-size: 25px;
      word-spacing: 3px;
      font-style: italic; 
      float: left;
      padding-top: 100px;
-     clear: left;
+     clear: both;
      
 }
 
@@ -152,11 +152,11 @@ img {
     font-family: sans-serif;
 }
 
-.border-box {
+
+.basic-menu {
+   font-size: 30px;
+  line-height: 20px;
+      
     
-    border: 3px solid black;
-    height: 500px;
-    width: 500px;
-    float: left;
-    border-spacing: 20px;
 }
+
