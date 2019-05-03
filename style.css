@@ -3,7 +3,7 @@
 
 body {
     
-    background-color: floralwhite; 
+   
     margin: 0;
     padding: 0;
     
@@ -19,42 +19,42 @@ header {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 90px;
     text-align: center;
     color: indianred;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: extra-condensed;
     word-spacing: 30px;
-    margin: 80px 0 0;
-    font-family: cursive;
+    margin: 100px 0 50px;
+    
 }  
 
 #heading {
     font-size: 60px;
-    font-family:monospace;
+    font-family: serif;
     text-align: center;
     word-spacing: 20px;
-    margin: 0 0 100;
+    margin: 0 0 50px;
     font-weight: 400;
 }
 
 #headingtagline {
     text-align: center;
-    font-size: 22px;
+    font-size: 23px;
     color: darkgreen;
-    font-weight: 400;
-    margin: 50px 0 0;
-    word-spacing: 3px;
-    font-family: cursive;
+    font-weight: 500;
+    margin: 100px 200px 0;
+    word-spacing: 10px;
+    
 }
  
 
 .container {
 
     margin: 0 auto;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 
@@ -63,10 +63,8 @@ display: inline-block;
 text-transform: uppercase;    
 list-style: none;
 color: black;
-margin:  130px 80px 80px;
-font-family: monospace;
-    
-    
+margin:  130px 80px 30px;
+font-family: serif;    
 }
 
 /* Styling Links */
@@ -129,12 +127,13 @@ img {
     margin-bottom: 100px;
     margin-left: 150px;
     margin-top: 100px;
+    border: 2px solid black;
     
 }
 
+/* PRICING MENU  */
 #Pricing {
-    font-size: 60px;
-    font-family: fantasy;
+    font-size: 80px;
     margin: 40px 260px 0;
     text-align: center;
     color: firebrick;
@@ -144,19 +143,74 @@ img {
 
 .tagline {
     
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    word-spacing: 20px;
+    word-spacing: 30px;
     color: black;
     line-height: 50px;
-    font-family: sans-serif;
 }
 
 
 .basic-menu {
-   font-size: 30px;
+   font-size: 35px;
   line-height: 20px;
-      
+  text-align: center;    
+  color: firebrick;
+  font-weight: 400;    
+     
+}
+
+.border-box {
+    border: 4px solid black;
+    width: 450px;
+    height: 520px;
+    border-radius: 10px;
+    float: left;
+    margin: 80px 50px 80px 50px;
+    background-color: blanchedalmond;
     
 }
 
+.Menu-list {
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: 400;
+    clear: both;
+}
+
+/* Footer */
+
+#aside-heading {
+    font-size: 60px;
+    padding-top: 50px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-left: 30%;
+}
+
+.aside-line {
+    
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+    
+}
+
+.underline {
+    border-bottom: 5px solid black;
+    padding-bottom: 30px;
+    display: inline-block;
+
+}
+
+.footer-nav {
+     
+    font-size: 25px;
+    float: left;
+    margin: 50px 100px;
+}
+
+ 
