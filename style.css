@@ -131,7 +131,7 @@ img {
     
 }
 
-/* PRICING MENU  */
+/* PRICING MENU */
 #Pricing {
     font-size: 80px;
     margin: 40px 260px 0;
@@ -180,8 +180,8 @@ img {
     clear: both;
 }
 
-/* Footer */
 
+/* Aside information */
 #aside-heading {
     font-size: 60px;
     padding-top: 50px;
@@ -205,12 +205,59 @@ img {
     display: inline-block;
 
 }
+/* Footer */
 
-.footer-nav {
+.footer-container {
      
-    font-size: 25px;
-    float: left;
-    margin: 50px 100px;
+     color: white;
+     font-size: 20px;
+     float: left;
+     padding: 120px 120px 100px 80px;
+     margin: 0 0 0 60px;
+   
 }
 
- 
+#box-footer {
+    
+    background-color: black;
+    padding-bottom: 500px;
+    clear: both; 
+}
+
+
+.footer-heading {
+    
+    font-weight: bold;
+    font-size: 30px;
+} 
+
+#Day-list {
+    
+    list-style: none;
+}
+
+#style-heading-1 {
+    margin-top: 2px;
+}
+
+#style-heading-2 {
+    margin-top: -20px;
+
+}
+
+
+
+small {
+    
+color: white;
+margin: 0 600px 0 600px;    
+font-size: 20px;
+
+}
+
+footer {
+    
+    border: 1px solid black;
+    background-color: black;
+}
+
